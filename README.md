@@ -1,0 +1,1 @@
+Following tutorial at http://ember.vicramon.com/hello-world
