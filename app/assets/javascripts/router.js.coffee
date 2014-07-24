@@ -4,5 +4,7 @@ App.Router.reopen
   rootURL: '/'
   
 App.Router.map ()->
-  # @resource('posts')
-
+  @resource 'leads', path: '/', ->
+    @route 'new'
+    @resource 'lead', path: 'leads/:id', ->
+      @route 'edit'
